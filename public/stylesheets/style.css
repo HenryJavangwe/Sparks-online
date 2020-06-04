@@ -5,6 +5,8 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
 }
 /* Hero Button Wrapper Styles */
 .text-wrapper {
@@ -29,6 +31,7 @@ body {
   border-radius: 14.5px;
   padding: 8px;
   animation: none;
+  transition: all 2s;
 }
 @keyframes hero-button-border {
   0% {
@@ -126,4 +129,25 @@ body {
     transform: translateY(-800px) rotate(360deg);
     opacity: 0;
   }
+}
+
+/* Second Section Styles */
+.second-section {
+  height: 100vh;
+  width: 100%;
+}
+
+.sticky-top {
+  position: fixed;
+  background-color: #9206f073;
+}
+
+/* img styles */
+img {
+  width: 400px;
+}
+.profile-pic {
+  width: 200px;
+  height: 250px;
+  border-radius: 200px;
 }
