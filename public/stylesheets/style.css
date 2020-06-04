@@ -54,3 +54,63 @@ body {
   width: 100%;
   height: 100vh;
 }
+
+.animated-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.animated-hero-bg li {
+  list-style: none;
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, .2);
+  animation: animate 20s linear infinite;
+}
+
+/* targeting the children */
+.animated-hero-bg li:nth-child(1) {
+  left: 86%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+.animated-hero-bg li:nth-child(2) {
+  left: 4%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 2s;
+  animation-duration: 10s;
+}
+.animated-hero-bg li:nth-child(3) {
+  left: 70%;
+  width: 100px;
+  height: 100px;
+  animation-delay: 5s;
+}
+.animated-hero-bg li:nth-child(4) {
+  left: 70%;
+  width: 150px;
+  height: 150px;
+  animation-delay: .5s;
+  animation-duration: 15s;
+}
+.animated-hero-bg li:nth-child(5) {
+  left: 45%;
+  width: 45px;
+  height: 45px;
+  animation-delay: 0s;
+}
+.animated-hero-bg li:nth-child(6) {
+  left: 10%;
+  width: 90px;
+  height: 90px;
+  animation-delay: 2.5s;
+}
+/* Animation Keyframes For the Banner Section  */
+
