@@ -64,6 +64,8 @@ body {
   overflow: hidden;
 }
 .animated-hero-bg li {
+  text-align: center;
+  vertical-align: middle;
   list-style: none;
   position: absolute;
   display: block;
@@ -71,7 +73,7 @@ body {
   height: 25px;
   background: rgba(255, 255, 255, .2);
   animation: animate 20s linear infinite;
-  bottom: -150px;
+  bottom: -95px;
 }
 
 /* targeting the children */
