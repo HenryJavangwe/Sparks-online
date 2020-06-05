@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-body {
+html, body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #000000;
   color: #ffffff;
@@ -57,18 +57,42 @@ body {
   width: 100%;
   height: 100vh;
 }
-
 .animated-hero-bg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
+}
+@media all and (max-width: 768px){
+  .animation-area {
+    background: linear-gradient(to left, #8942a8, #ba382f);
+    width: 100%;
+    height: 700px;
+  }
+  .animated-hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 690px;
+    overflow: hidden;
+  }
+  .animated-hero-bg li {
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: rgba(255, 255, 255, .2);
+    animation: animate 20s ease-in-out infinite;
+    bottom: -5%;
+  }
 }
 .animated-hero-bg li {
   text-align: center;
-  vertical-align: middle;
   list-style: none;
   position: absolute;
   display: block;
