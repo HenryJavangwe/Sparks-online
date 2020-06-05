@@ -199,8 +199,9 @@ html, body {
 }
 
 /* img styles */
-img {
-  width: 400px;
+.carousel img {
+  width: 500px;
+  height: 800px;
 }
 .profile-pic {
   width: 200px;
