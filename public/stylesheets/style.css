@@ -160,12 +160,25 @@ html, body {
   left: 0;
   bottom: 0;
 }
-#sidebar a {
+#sidebar h3{
   display: block;
   padding: 10px 20px;
   color: #ffffff;
   text-decoration: none;
   letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#sidebar a {
+  display: block;
+  padding: 10px 20px;
+  color: #bbb;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+#sidebar a:hover {
+  margin-left: 20px;
+  color: #ffffff;
+  transition: .6s;
 }
 
 /* img styles */
