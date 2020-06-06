@@ -154,6 +154,25 @@ html, body {
 /*
  * Sidebar
  */
+.profile-div h2 {
+  letter-spacing: 2px;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+}
+ #sidebarMenu {
+   background-color: black;
+   color: white;
+ }
+ #sidebarMenu a {
+   color: gray;
+   letter-spacing: 2px;
+ }
+ #sidebarMenu a:hover {
+   color: white;
+   margin-left: 20px;
+   transition: .5s;
+ }
 
  .sidebar {
   position: fixed;
