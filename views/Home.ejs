@@ -63,6 +63,7 @@ viewBox="0 0 171 171"
         </nav>
        <!-- Right Main Section -->
         <main role="main" class="col-md-8 ml-sm-auto col-lg-9 home">
+          <!-- First Section -->
           <section class="first ">
             <div class="welcome-msg">
                 <h1 class="greeting">
@@ -88,31 +89,34 @@ viewBox="0 0 171 171"
             </p>
           </section>
           <!-- Services -->
-          <section>
+          <section class="services">
             <h3> Services </h3>
-            <div class="services">
-              <ul>
-                <li> Web Design & Development </li>
-                <li> Hosting &/ Maintainance </li>
-                <li> Digital Marketing & Social Media </li>
+            <div >
+              <ul class="row text-center">
+                <li class="col-sm-12 col-md-3 col-lg-3"> Web Design & Development </li>
+                <li class="col-sm-12 col-md-3 col-lg-3"> Hosting &/ Maintainance </li>
+                <li class="col-sm-12 col-md-3 col-lg-3"> Digital Marketing & Social Media </li>
               </ul>
             </div>
+          </section>
+          <!-- Portfolio -->
+          <section class="portfolio">
             <h3>Portfolio</h3>
             <!-- Embeded sites -->
-            <div class="portfolio row">
-              <div>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
                 <embed src="https://henryjavangwe.github.io/mavenproject101/index.html" type="">
                 <div>
                   <a href="https://henryjavangwe.github.io/mavenproject101/index.html" target="_blank">
-                    View                
+                    <button class="view-btn">View</button>             
                   </a>
                 </div>
               </div>
-              <div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
                 <embed src="https://henryjavangwe.github.io/particle.js/" type="">
                 <div>
                   <a href="https://henryjavangwe.github.io/particle.js/" target="_blank">
-                    View
+                    <button class="view-btn">View</button>
                   </a>
                 </div>
               </div>
@@ -124,38 +128,38 @@ viewBox="0 0 171 171"
           <small>What interests us </small>
           <div class="blog-Posts py-51">
             <!-- carousel - blog - posts -->
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active " data-interval="4000">
                   <div class="card bg-dark text-dark">
                     <img src="https://images.unsplash.com/photo-1565229284535-2cbbe3049123?ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80" class="d-block w-100" alt="...">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">The Vast World of Code</h5>
+                    <div class="card-img-overlay h-25">
+                      <h2 class="card-title">The Vast World of Code</h2>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-interval="4000">
                   <div class="card bg-dark text-dark">
                     <img src="https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="d-block w-100" alt="...">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Connecting Worlds Through Technology</h5>
+                    <div class="card-img-overlay h-25">
+                      <h2 class="card-title">Connecting Worlds Through Technology</h2>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-interval="4000">
                   <div class="card bg-dark text-dark">
-                    <img src="https://images.unsplash.com/photo-1565374391015-af899382f2a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="d-block w-100" alt="...">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Connecting Worlds Through Technology</h5>
+                    <img src="https://images.unsplash.com/photo-1543699565-003b8adda5fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="d-block w-100" alt="...">
+                    <div class="card-img-overlay h-25">
+                      <h2 class="card-title">Connecting Worlds Through Technology</h2>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <p class="card-text">Last updated 3 mins ago</p>
                     </div>

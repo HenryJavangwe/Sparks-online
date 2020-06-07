@@ -9,6 +9,13 @@ html, body {
   color: rgb(199, 199, 199);
 }
 
+.home h3 {
+  letter-spacing: 1px;
+  border-bottom: #f5f4f4cc;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
 /* Hero Button Wrapper Styles */
 .text-wrapper {
   position: absolute;
@@ -169,7 +176,7 @@ html, body {
   transition: all .5s;
 }
 .top-navbar a:hover {
-  color: rgb(255, 255, 255);
+  color: #dd721afb;
   transform: scale(1.1);
 }
 .top-navbar a svg:hover {
@@ -249,6 +256,7 @@ main {
   color: #ececec;
 }
 .home {
+  text-align: center;
   padding: 0;
   background-color: #030303;
   background-image: url(https://images.unsplash.com/photo-1507494924047-60b8ee826ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80);
@@ -256,7 +264,7 @@ main {
   color: #ececec;
 }
 
-/* First section */
+/* ------First section----- */
 
 .first {
   height: 650px;
@@ -271,13 +279,18 @@ main {
   letter-spacing: 1px;
 }
 
+/* ------Second------  */
 /* About Us Section Styles */
 .about {
   transform: translateY(100px);
-  height: 650px;
-  padding: 25px;
+  height: 500px;
+  padding: 50px 25px;
   text-align: center;
   letter-spacing: 1px;
+  margin: 50px 0;
+}
+.about h3 {
+  padding: 0 0 40px 0;
 }
 .specialize {
   padding: 15px;
@@ -285,13 +298,62 @@ main {
   box-shadow: -8px 3px 20px ;
 }
 
+/* ------Third------ */
+/* services section styles */
+.services {
+  padding: 50px 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 50px 0;
+  height: 500px;
+}
+.services ul {
+  text-align: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 30px 10px 30px 30px;
+  transform: translateY(100px);
+}
+.services ul li {
+  padding: 30px 15px;
+  margin: 15px 15px 15px 35px;
+  border: 2px solid gray;
+  border-style: double;
+  border-radius: 100px;
+  box-shadow: -2px 2px 10px;
+}
+
 /* Portfolio styles */
 
 .portfolio {
-  display: flex;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 100px;
 }
+
 embed {
-  width: 400px;
-  height: 500px;
-  margin: 10px;
+  width: 300px;
+  height: 480px;
+  margin: 0 30px;
+  filter: grayscale(2);
+  transform: scale(.7);
+  transition: all .9s;
+}
+embed:hover {
+  filter: none;
+}
+
+.view-btn {
+  width: 100px;
+  border-radius: 22.5px;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  transition: all .5s;
+}
+.view-btn:hover {
+  background-color:white;
+  color: #dd721afb;
+  transform: scale(.9);
 }
