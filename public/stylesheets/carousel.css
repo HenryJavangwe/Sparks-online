@@ -1,0 +1,19 @@
+
+/* Carousel styles */
+.carousel-fade carousel-item {
+    width: 500px;
+    height: 600px;
+  }
+  .carousel-fade img {
+    width: max-content;
+    height: max-content;
+  }
+  .first .card {
+    background: none;
+    border: none;
+  }
+  .profile-pic {
+    width: 180px;
+    height: 220px;
+    border-radius: 200px;
+  }

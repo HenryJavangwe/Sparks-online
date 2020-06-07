@@ -3,10 +3,15 @@
   margin: 0;
   padding: 0;
 }
-html, body, main {
+html, body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(160, 157, 157, 0.856);
+  background-color: black;
   color: rgb(199, 199, 199);
+}
+main {
+  padding: 0;
+  background: linear-gradient(to left, #b3b3b3be, #303030c4);
+  color: #ececec;
 }
 /* Hero Button Wrapper Styles */
 .text-wrapper {
@@ -153,11 +158,28 @@ html, body, main {
     opacity: 0;
   }
 }
-
-
 /*
- * Sidebar
- */
+  *Home Page Styles
+  *Top NavBar
+  * Sidebar
+*/
+
+.top-navbar {
+  background-color: #000000cc;
+  padding: 0 16px;
+}
+.top-navbar a {
+  color: rgb(182, 182, 182);
+  transition: all .5s;
+}
+.top-navbar a:hover {
+  color: rgb(255, 255, 255);
+  transform: scale(1.1);
+}
+.top-navbar a svg:hover {
+  color: rgb(255, 255, 255);
+  transform: rotateZ(-40deg);
+}
 .profile-div h2 {
   letter-spacing: 2px;
   color: white;
@@ -165,7 +187,7 @@ html, body, main {
   font-weight: 300;
 }
  #sidebarMenu {
-   background-color: black;
+   background-color: rgba(15, 15, 15, 0.918);
    color: white;
  }
  #sidebarMenu a {
@@ -220,19 +242,20 @@ html, body, main {
   text-transform: uppercase;
 }
 
-/* Carousel styles */
-.carousel img {
-  width: 500px;
-  height: 800px;
+/* 
+* Main Content *
+*/
+
+/* First section */
+
+.first {
+  height: 650px;
+  text-align: center;
+  vertical-align: middle;
 }
-.first .card {
-  background: none;
-  border: none;
-}
-.profile-pic {
-  width: 200px;
-  height: 250px;
-  border-radius: 200px;
+
+.welcome-msg {
+  transform: translateY(200px);
 }
 
 /* Portfolio styles */
