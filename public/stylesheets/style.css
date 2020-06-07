@@ -372,3 +372,7 @@ embed:hover {
   padding: 15px;
   border-radius: 22.5px;
 }
+.regular {
+  letter-spacing: 1px;
+  font-weight: 300;
+}
