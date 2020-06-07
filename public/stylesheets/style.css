@@ -295,6 +295,7 @@ main {
 .specialize {
   padding: 15px;
   letter-spacing: 1px;
+  background-color: #444444cc;
   box-shadow: -8px 3px 20px ;
 }
 
@@ -356,4 +357,18 @@ embed:hover {
   background-color:white;
   color: #dd721afb;
   transform: scale(.9);
+}
+
+/* Blog Styles */
+
+/* Footer Styles */
+.social-media {
+  display: flex;
+  list-style: none;
+}
+.social-media li {
+  margin: auto;
+  background-color: #9b9b9bcc;
+  padding: 15px;
+  border-radius: 22.5px;
 }
