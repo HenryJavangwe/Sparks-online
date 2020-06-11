@@ -216,6 +216,7 @@ html, body {
 @media (max-width: 767.98px) {
   .sidebar {
     top: 5rem;
+    display: none;
   }
 }
 
@@ -362,15 +363,27 @@ embed:hover {
 /* Blog Styles */
 
 /* Footer Styles */
-.social-media {
+.social-media ul {
+  list-style-type: none;
   display: flex;
-  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
 }
-.social-media li {
+.social-media ul li {
   margin: auto;
-  background-color: #9b9b9bcc;
-  padding: 15px;
-  border-radius: 22.5px;
+  vertical-align: bottom;
+}
+
+.social-media ul li a {
+  padding: 12px;
+  background-color: #79747883;
+  border-radius: 15.5px;
+  margin-right: 5px;
+}
+.social-icon{
+  width: 23px;
+  height: 23px;
 }
 .regular {
   letter-spacing: 1px;
